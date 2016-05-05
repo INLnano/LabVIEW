@@ -1,0 +1,360 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>11.0</Version>
+<Cluster>
+<Name>90 Degree Pulse settings out</Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>Delay Settings</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Delay d1</Name>
+<Val>999.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay d2</Name>
+<Val>3.99938752296789</Val>
+</DBL>
+<U8>
+<Name>d1 Unit</Name>
+<Val>1</Val>
+</U8>
+<U8>
+<Name>d2 Unit</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Preliminary Settings</Name>
+<NumElts>2</NumElts>
+<U16>
+<Name>Nº of Scans (ns)</Name>
+<Val>200</Val>
+</U16>
+<DBL>
+<Name>Pulse Frequency</Name>
+<Val>10100000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Pulse Settings</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Duration Signal P1</Name>
+<Val>8.98670049873130</Val>
+</DBL>
+<U16>
+<Name>Power Level</Name>
+<Val>5</Val>
+</U16>
+<U16>
+<Name>Phase</Name>
+<Val>90</Val>
+</U16>
+<U8>
+<Name>P1 Units</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Acquisition Settings</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>Number Samples</Name>
+<Val>250</Val>
+</U16>
+<DBL>
+<Name>Time Between Points</Name>
+<Val>0.73746300000000</Val>
+</DBL>
+<U8>
+<Name>Unit</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>CPMG pulse settings Out</Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>Acquisition Settings</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>Number Samples</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Time Between Points</Name>
+<Val>19.92162469536962</Val>
+</DBL>
+<U8>
+<Name>Unit</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Delay Settings</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Delay d1</Name>
+<Val>20.01128707673462</Val>
+</DBL>
+<DBL>
+<Name>Delay d2</Name>
+<Val>20.01128707673462</Val>
+</DBL>
+<U8>
+<Name>d1 Unit</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>d2 Unit</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>Delay d3</Name>
+<Val>20.01128707673462</Val>
+</DBL>
+<U8>
+<Name>d3 Unit</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>Delay d4</Name>
+<Val>20.01128707673462</Val>
+</DBL>
+<U8>
+<Name>d4 Unit</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Preliminary Settings</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>Nº of Scans (ns)</Name>
+<Val>1</Val>
+</U16>
+<DBL>
+<Name>Pulse Frequency</Name>
+<Val>9000000.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Nº of Echoes (ne)</Name>
+<Val>3</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Pulse Settings</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Duration Signal P1</Name>
+<Val>20.01128707673462</Val>
+</DBL>
+<U16>
+<Name>Power Level P1</Name>
+<Val>1000</Val>
+</U16>
+<U16>
+<Name>Phase P1</Name>
+<Val>90</Val>
+</U16>
+<U8>
+<Name>P1 Unit</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>Duration Signal P2</Name>
+<Val>20.01128707673462</Val>
+</DBL>
+<U16>
+<Name>Power Level P2</Name>
+<Val>200</Val>
+</U16>
+<U16>
+<Name>Phase P2</Name>
+<Val>90</Val>
+</U16>
+<U8>
+<Name>P2 Unit</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>T1 Pulse settings Out</Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>Preliminary Settings</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>Nº of Scans (ns)</Name>
+<Val>7</Val>
+</U16>
+<DBL>
+<Name>Pulse Frequency</Name>
+<Val>10000000.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Nº of Vd</Name>
+<Val>3</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Pulse Settings</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Duration Signal P2</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Power Level P2</Name>
+<Val>1000</Val>
+</U16>
+<U16>
+<Name>Phase P2</Name>
+<Val>90</Val>
+</U16>
+<U8>
+<Name>P2 Unit</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>Duration Signal P1</Name>
+<Val>50.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Power Level P1</Name>
+<Val>1000</Val>
+</U16>
+<U16>
+<Name>Phase P1</Name>
+<Val>90</Val>
+</U16>
+<U8>
+<Name>P1 Unit</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Acquisition Settings</Name>
+<NumElts>3</NumElts>
+<U16>
+<Name>Number Samples</Name>
+<Val>5000</Val>
+</U16>
+<DBL>
+<Name>Time Between Points</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U8>
+<Name>Unit</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>Delay Settings</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Delay d1</Name>
+<Val>100.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay d2</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<U8>
+<Name>d1 Unit</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>d2 Unit</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>Delay d30</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U8>
+<Name>d30 Unit</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Vd Unit</Name>
+<Val>0</Val>
+</U8>
+<String>
+<Name>Vd Values</Name>
+<Val>Automatic</Val>
+</String>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Hardware Paramentes out</Name>
+<NumElts>16</NumElts>
+<U16>
+<Name>Number Samples</Name>
+<Val>8000</Val>
+</U16>
+<DBL>
+<Name>Time Between Points</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<I8>
+<Name>Gain2 (dB)</Name>
+<Val>-5</Val>
+</I8>
+<U8>
+<Name>CuttOff Freq1[MHz]</Name>
+<Val>10</Val>
+</U8>
+<U8>
+<Name>CuttOff Freq2[MHz]</Name>
+<Val>1</Val>
+</U8>
+<DBL>
+<Name>Frequency</Name>
+<Val>10000000.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Phase</Name>
+<Val>180</Val>
+</U16>
+<U16>
+<Name>Power Level</Name>
+<Val>200</Val>
+</U16>
+<Boolean>
+<Name>Send Pulse</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Reset DDS</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>TX CTRL</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>RX CTRL</Name>
+<Val>1</Val>
+</Boolean>
+<I8>
+<Name>Gain1 (dB)</Name>
+<Val>-5</Val>
+</I8>
+<Boolean>
+<Name>Set DDS</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Start AQS</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Units</Name>
+<Val>0</Val>
+</U8>
+</Cluster>
+</LVData>

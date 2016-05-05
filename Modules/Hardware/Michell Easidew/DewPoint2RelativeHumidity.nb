@@ -1,0 +1,269 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      8940,        260]
+NotebookOptionsPosition[      7612,        213]
+NotebookOutlinePosition[      8225,        235]
+CellTagsIndexPosition[      8182,        232]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"f", "[", 
+   RowBox[{"T_", ",", "RH_"}], "]"}], ":=", " ", 
+  RowBox[{"Log", "[", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"RH", "/", "100"}], ")"}], "*", 
+    RowBox[{"Exp", "[", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"b", "-", 
+        RowBox[{"T", "/", "d"}]}], ")"}], "*", 
+      RowBox[{"(", 
+       RowBox[{"T", "/", 
+        RowBox[{"(", 
+         RowBox[{"c", "+", "T"}], ")"}]}], ")"}]}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.5874434543701077`*^9, 3.5874435595291224`*^9}, {
+   3.5874437064035225`*^9, 3.58744378344893*^9}, 3.5874438436763744`*^9, {
+   3.5874438816035438`*^9, 3.587443893618231*^9}, 3.587444063626955*^9, {
+   3.5874442331396503`*^9, 3.587444249242572*^9}, {3.587444534754902*^9, 
+   3.5874445357069564`*^9}, {3.587445629275505*^9, 3.5874456308595953`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Tdp", "[", 
+   RowBox[{"T_", ",", "RH_"}], "]"}], ":=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{"c", "*", 
+     RowBox[{"f", "[", 
+      RowBox[{"T", ",", "RH"}], "]"}]}], ")"}], "/", 
+   RowBox[{"(", 
+    RowBox[{"b", "-", 
+     RowBox[{"f", "[", 
+      RowBox[{"T", ",", "RH"}], "]"}]}], ")"}]}]}]], "Input",
+ CellChangeTimes->{{3.5874454902585535`*^9, 3.587445496386904*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Tdp", "[", 
+  RowBox[{"T", ",", "RH"}], "]"}]], "Input",
+ CellChangeTimes->{{3.5874455375292573`*^9, 3.5874455435616026`*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"c", " ", 
+   RowBox[{"Log", "[", 
+    RowBox[{
+     FractionBox["1", "100"], " ", 
+     SuperscriptBox["\[ExponentialE]", 
+      FractionBox[
+       RowBox[{"T", " ", 
+        RowBox[{"(", 
+         RowBox[{"b", "-", 
+          FractionBox["T", "d"]}], ")"}]}], 
+       RowBox[{"c", "+", "T"}]]], " ", "RH"}], "]"}]}], 
+  RowBox[{"b", "-", 
+   RowBox[{"Log", "[", 
+    RowBox[{
+     FractionBox["1", "100"], " ", 
+     SuperscriptBox["\[ExponentialE]", 
+      FractionBox[
+       RowBox[{"T", " ", 
+        RowBox[{"(", 
+         RowBox[{"b", "-", 
+          FractionBox["T", "d"]}], ")"}]}], 
+       RowBox[{"c", "+", "T"}]]], " ", "RH"}], "]"}]}]]], "Output",
+ CellChangeTimes->{
+  3.587445545145693*^9, {3.5874456391130676`*^9, 3.587445671129899*^9}}]
+}, Open  ]],
+
+Cell["\<\
+This represents the Arden Buck equation, relating the relative humidity to \
+the dew point at a certain ambient temperature T \
+[http://en.wikipedia.org/wiki/Dew_point].\
+\>", "Text",
+ CellChangeTimes->{{3.5874525025526342`*^9, 3.587452503800705*^9}, {
+  3.5874525369206*^9, 3.5874525776889315`*^9}, {3.587452744000444*^9, 
+  3.58745276928089*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"b", " ", "=", " ", "18.678"}], "\[IndentingNewLine]", 
+ RowBox[{"c", "=", "257.14"}], "\[IndentingNewLine]", 
+ RowBox[{"d", "=", "234.5"}]}], "Input",
+ CellChangeTimes->{{3.5874446848884892`*^9, 3.5874446861135592`*^9}, {
+  3.5874447238007145`*^9, 3.587444775504672*^9}}],
+
+Cell[BoxData["18.678`"], "Output",
+ CellChangeTimes->{{3.5874447318351746`*^9, 3.5874447768017464`*^9}, 
+   3.5874455572823873`*^9, 3.5874456450524073`*^9, 3.587445700542581*^9}],
+
+Cell[BoxData["257.14`"], "Output",
+ CellChangeTimes->{{3.5874447318351746`*^9, 3.5874447768017464`*^9}, 
+   3.5874455572823873`*^9, 3.5874456450524073`*^9, 3.5874457005475817`*^9}],
+
+Cell[BoxData["234.5`"], "Output",
+ CellChangeTimes->{{3.5874447318351746`*^9, 3.5874447768017464`*^9}, 
+   3.5874455572823873`*^9, 3.5874456450524073`*^9, 3.5874457005495815`*^9}]
+}, Open  ]],
+
+Cell["\<\
+The units of parameters b and c are degrees Celcius. Hence, we can obtain the \
+relationship between relative humidity and dew point at an ambient \
+temperature as \
+\>", "Text",
+ CellChangeTimes->{{3.5874525966570168`*^9, 3.5874526859121213`*^9}, {
+  3.5874582659734135`*^9, 3.587458273008423*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Tdp20", "[", "RH_", "]"}], ":=", 
+  RowBox[{"Tdp", "[", 
+   RowBox[{"20", ",", "RH"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.587443942313016*^9, 3.587443995649067*^9}, {
+  3.5874440835860963`*^9, 3.587444086602269*^9}, {3.5874442567299995`*^9, 
+  3.5874442585941067`*^9}, {3.5874445394021673`*^9, 3.5874445404662285`*^9}, {
+  3.5874446014977193`*^9, 3.5874446096821876`*^9}, {3.587444828434699*^9, 
+  3.5874448648907843`*^9}, {3.587445562816704*^9, 3.5874455766254935`*^9}, {
+  3.58744600456997*^9, 3.5874460046499753`*^9}, {3.5874516131057606`*^9, 
+  3.587451620569187*^9}, {3.5874526906183906`*^9, 3.5874526981858234`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Tdp20", "[", "RH", "]"}]], "Input",
+ CellChangeTimes->{{3.587445591497344*^9, 3.587445595809591*^9}, {
+  3.587452703842147*^9, 3.5874527071133337`*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"257.14`", " ", 
+   RowBox[{"Log", "[", 
+    RowBox[{"0.038257554334026264`", " ", "RH"}], "]"}]}], 
+  RowBox[{"18.678`", "\[VeryThinSpace]", "-", 
+   RowBox[{"Log", "[", 
+    RowBox[{"0.038257554334026264`", " ", "RH"}], "]"}]}]]], "Output",
+ CellChangeTimes->{3.5874455971276665`*^9, 3.5874456451034102`*^9, 
+  3.5874457059508905`*^9, 3.5874527083054028`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"RH", "[", "Tdp_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"InverseFunction", "[", "Tdp20", "]"}], "[", "Tdp", 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.5874440972088757`*^9, 3.587444106920431*^9}, {
+  3.5874441550091815`*^9, 3.5874441722091656`*^9}, {3.587444645369229*^9, 
+  3.5874446674974947`*^9}, {3.5874449408891315`*^9, 3.5874449866967516`*^9}, {
+  3.5874450223207893`*^9, 3.5874450507774167`*^9}, {3.5874451176492414`*^9, 
+  3.58744513248209*^9}, {3.5874457251369877`*^9, 3.587445731082328*^9}, {
+  3.587451628066616*^9, 3.5874516522179976`*^9}, {3.5874527172099113`*^9, 
+  3.587452723706283*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RH", "[", "Tdp", "]"}]], "Input",
+ CellChangeTimes->{{3.5874449944891973`*^9, 3.587445003296701*^9}, {
+  3.5874450788170204`*^9, 3.5874450890806074`*^9}, {3.5874451445297794`*^9, 
+  3.5874452610974464`*^9}, {3.587445740745881*^9, 3.5874457483773174`*^9}, {
+  3.5874457929698677`*^9, 3.5874458436337657`*^9}, {3.5874459421534004`*^9, 
+  3.5874460572969866`*^9}, {3.58745100554601*^9, 3.587451014953548*^9}, {
+  3.5874513060571985`*^9, 3.5874513395931163`*^9}}],
+
+Cell[BoxData[
+ SuperscriptBox["\[ExponentialE]", 
+  FractionBox[
+   RowBox[{"1.5681055195215438`*^19", "+", 
+    RowBox[{"4.100134056112945`*^17", " ", "Tdp"}]}], 
+   RowBox[{"4.805107180836964`*^18", "+", 
+    RowBox[{"1.868673555587215`*^16", " ", "Tdp"}]}]]]], "Output",
+ CellChangeTimes->{{3.587446028848359*^9, 3.587446058540057*^9}, {
+   3.58745100746412*^9, 3.587451015951605*^9}, {3.5874513078393*^9, 
+   3.5874513413512173`*^9}, {3.587451635109019*^9, 3.587451655448182*^9}, 
+   3.587452727263487*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.58744526815285*^9, 3.587445313345435*^9}, 
+   3.5874457711216183`*^9}],
+
+Cell[BoxData["194.17234590684416`"], "Output",
+ CellChangeTimes->{{3.5874452944293528`*^9, 3.587445314893523*^9}, 
+   3.587445645175414*^9}]
+}, Closed]]
+},
+WindowSize->{707, 905},
+WindowMargins->{{Automatic, -832}, {-16, Automatic}},
+PrintingCopies->1,
+PrintingPageRange->{32000, 32000},
+PrintingOptions->{"Magnification"->1.,
+"PaperOrientation"->"Portrait",
+"PaperSize"->{594.9599999999999, 842.04}},
+Magnification:>FEPrivate`If[
+  FEPrivate`Equal[FEPrivate`$VersionNumber, 6.], 1.5, 1.5 Inherited],
+FrontEndVersion->"8.0 for Microsoft Windows (64-bit) (October 6, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 845, 21, 71, "Input"],
+Cell[1405, 43, 414, 13, 43, "Input"],
+Cell[CellGroupData[{
+Cell[1844, 60, 150, 3, 43, "Input"],
+Cell[1997, 65, 793, 25, 132, "Output"]
+}, Open  ]],
+Cell[2805, 93, 358, 7, 90, "Text"],
+Cell[CellGroupData[{
+Cell[3188, 104, 296, 5, 98, "Input"],
+Cell[3487, 111, 178, 2, 42, "Output"],
+Cell[3668, 115, 180, 2, 42, "Output"],
+Cell[3851, 119, 179, 2, 42, "Output"]
+}, Open  ]],
+Cell[4045, 124, 309, 6, 90, "Text"],
+Cell[4357, 132, 663, 11, 43, "Input"],
+Cell[CellGroupData[{
+Cell[5045, 147, 176, 3, 43, "Input"],
+Cell[5224, 152, 399, 9, 65, "Output"]
+}, Open  ]],
+Cell[5638, 164, 638, 12, 43, "Input"],
+Cell[CellGroupData[{
+Cell[6301, 180, 483, 7, 43, "Input"],
+Cell[6787, 189, 510, 10, 67, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7334, 204, 119, 2, 43, "Input"],
+Cell[7456, 208, 140, 2, 63, "Output"]
+}, Closed]]
+}
+]
+*)
+
+(* End of internal cache information *)

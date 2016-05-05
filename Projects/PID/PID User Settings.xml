@@ -1,0 +1,603 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>11.0</Version>
+<Cluster>
+<Name>Device Settings</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>PID</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>B-M PID</Name>
+<NumElts>1</NumElts>
+<DBL>
+<Name>Detector Sampling Frequency</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>INL PID</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Sampling Frequency</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Integration Time</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U8>
+<Name>Integration Periods</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>Grid Voltage</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Power Supply</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>Source Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Source Value Units</Name>
+<Choice>volts</Choice>
+<Choice>millivolts</Choice>
+<Choice>microvolts</Choice>
+<Choice>amps</Choice>
+<Choice>milliamps</Choice>
+<Choice>microamps</Choice>
+<Choice>nanoamps</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Source Mode</Name>
+<Choice>Volts</Choice>
+<Choice>Current</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Limits</Name>
+<NumElts>8</NumElts>
+<DBL>
+<Name>Voltage Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Voltage Limit Units</Name>
+<Choice>volts</Choice>
+<Choice>millivolts</Choice>
+<Choice>microvolts</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>Current Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Current Limit Units</Name>
+<Choice>amps</Choice>
+<Choice>milliamps</Choice>
+<Choice>microamps</Choice>
+<Choice>nanoamps</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>Voltage Trip/Cmpl</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Voltage Trip/Cmpl Units</Name>
+<Choice>volts</Choice>
+<Choice>millivolts</Choice>
+<Choice>microvolts</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>Current Trip/Cmpl</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Current Trip/Cmpl Units</Name>
+<Choice>amps</Choice>
+<Choice>milliamps</Choice>
+<Choice>microamps</Choice>
+<Choice>nanoamps</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Boolean>
+<Name>Output</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Mass Flow Controller</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>MFC Flow Rate</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>MFC Valve Status</Name>
+<Choice>Open</Choice>
+<Choice>Closed</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Valve Controller</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Valve Assembly</Name>
+<NumElts>5</NumElts>
+<U16>
+<Name>Valve 1</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Valve 2</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Valve 3</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Valve 4</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Valve 5</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Multimeter</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Agilent 3458A</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Measurement Configuration</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Function</Name>
+<Choice>DC Voltage</Choice>
+<Choice>AC Voltage</Choice>
+<Choice>AC + DC Voltage</Choice>
+<Choice>DC Current</Choice>
+<Choice>AC Current</Choice>
+<Choice>AC + DC Current</Choice>
+<Choice>2-Wire Resistance</Choice>
+<Choice>4-Wire Resistance</Choice>
+<Choice>Frequency</Choice>
+<Choice>Period</Choice>
+<Choice>Direct Sampling DC</Choice>
+<Choice>Direct Sampling AC</Choice>
+<Choice>Sub-Sampling DC</Choice>
+<Choice>Sub-Sampling AC</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name> Manual Resolution</Name>
+<Choice>4.5</Choice>
+<Choice>5.5</Choice>
+<Choice>6.5</Choice>
+<Choice>7.5</Choice>
+<Choice>8.5</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Frequency Source</Name>
+<Choice>AC + DC Current</Choice>
+<Choice>AC + DC Voltage</Choice>
+<Choice>AC Current</Choice>
+<Choice>AC Voltage</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Auto Range</Name>
+<Choice>OFF</Choice>
+<Choice>ON</Choice>
+<Choice>ONCE</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Measurement Integration</Name>
+<NumElts>1</NumElts>
+<DBL>
+<Name>Power Line Cycles</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Vapour Generator</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Owlstone Permeation Tube</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Tube</Name>
+<Choice>Isobutylene 27 Nov 2012</Choice>
+<Choice>Ammonia 29 Sep 2012</Choice>
+<Choice>DMMP Tube A 3 July 2014</Choice>
+<Choice>DMMP Tube B 3 July 2014</Choice>
+<Val>3</Val>
+</EW>
+<DBL>
+<Name>Molecular Weight</Name>
+<Val>128.03999999999999</Val>
+</DBL>
+<I32>
+<Name>Calibration Temperature
+(Celcius)</Name>
+<Val>100</Val>
+</I32>
+<I32>
+<Name>Permeation Rate 
+(ng/min)</Name>
+<Val>564</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Owlstone GEN-SYS Setpoints</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>OVG-4</Name>
+<NumElts>4</NumElts>
+<I32>
+<Name>Oven Temperature</Name>
+<Val>80</Val>
+</I32>
+<I32>
+<Name>Sample Flow Rate</Name>
+<Val>50</Val>
+</I32>
+<U16>
+<Name>Split Flow Status</Name>
+<Val>0</Val>
+</U16>
+<I32>
+<Name>Split Flow Rate</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>OHG-4</Name>
+<NumElts>1</NumElts>
+<I32>
+<Name>Wet Air Flow</Name>
+<Val>1000</Val>
+</I32>
+</Cluster>
+</Cluster>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Device Connections</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>Detector</Name>
+<NumElts>4</NumElts>
+<EW>
+<Name>Detector Type</Name>
+<Choice>INL PID</Choice>
+<Choice>Baseline-Mocon piD-TECH plus</Choice>
+<Val>1</Val>
+</EW>
+<Boolean>
+<Name>Connection</Name>
+<Val>1</Val>
+</Boolean>
+<Cluster>
+<Name>B-M PID</Name>
+<NumElts>1</NumElts>
+<DAQChannel>
+<Name>AI DAQmx channel</Name>
+<Val>NI6008/ai0</Val>
+</DAQChannel>
+</Cluster>
+<Cluster>
+<Name>INL PID Connections</Name>
+<NumElts>3</NumElts>
+<U8>
+<Name>PIDs</Name>
+<Val>0</Val>
+</U8>
+<Cluster>
+<Name>Integrator DAQ Channels 1</Name>
+<NumElts>3</NumElts>
+<DAQChannel>
+<Name>V0</Name>
+<Val></Val>
+</DAQChannel>
+<DAQChannel>
+<Name>S1</Name>
+<Val></Val>
+</DAQChannel>
+<DAQChannel>
+<Name>S2</Name>
+<Val></Val>
+</DAQChannel>
+</Cluster>
+<Cluster>
+<Name>Integrator DAQ Channels 2</Name>
+<NumElts>3</NumElts>
+<DAQChannel>
+<Name>V0</Name>
+<Val></Val>
+</DAQChannel>
+<DAQChannel>
+<Name>S1</Name>
+<Val></Val>
+</DAQChannel>
+<DAQChannel>
+<Name>S2</Name>
+<Val></Val>
+</DAQChannel>
+</Cluster>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Power Supply</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Type</Name>
+<Choice>Stanford Research PS350</Choice>
+<Choice>Keithley 2400</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Connection</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val>SR_PS350</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>Mass Flow Controller</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Type</Name>
+<Choice>Aalborg GFC17</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Connection</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Aalborg GFC17</Name>
+<NumElts>3</NumElts>
+<DAQChannel>
+<Name>flow rate setpoint channel</Name>
+<Val></Val>
+</DAQChannel>
+<DAQChannel>
+<Name>flow rate reading channel</Name>
+<Val></Val>
+</DAQChannel>
+<DAQChannel>
+<Name>valve channel</Name>
+<Val></Val>
+</DAQChannel>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Valve Controller</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Type</Name>
+<Choice>SMC - INL</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Connection</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>SMC - INL</Name>
+<NumElts>1</NumElts>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Multimeter</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Multimeter Type</Name>
+<Choice>Agilent 3458A</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Connection</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>Vapour Generator</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Type</Name>
+<Choice>Owlstone GEN-SYS</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>Connection</Name>
+<Val>1</Val>
+</Boolean>
+<Cluster>
+<Name>Owlstone Gen-SYS</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>GEN-SYS VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val>GENSYS</Val>
+</Refnum>
+<Cluster>
+<Name>OVG-4</Name>
+<NumElts>2</NumElts>
+<U8>
+<Name>Flow Address</Name>
+<Val>4</Val>
+</U8>
+<U8>
+<Name>Temp Address</Name>
+<Val>3</Val>
+</U8>
+</Cluster>
+<Cluster>
+<Name>OHG-4</Name>
+<NumElts>2</NumElts>
+<U8>
+<Name>Flow Address</Name>
+<Val>1</Val>
+</U8>
+<Refnum>
+<Name>Easydew VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val>COM6</Val>
+</Refnum>
+</Cluster>
+</Cluster>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Data Acquisition Parameters</Name>
+<NumElts>10</NumElts>
+<EW>
+<Name>Experiment Type</Name>
+<Choice>PID Sample</Choice>
+<Choice>PID with PS Challenge</Choice>
+<Choice>PID with MFC Challenge</Choice>
+<Choice>Multimeter Sample</Choice>
+<Choice>Multimeter with MFC Challenge</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Experiment Name</Name>
+<Val>DMMP</Val>
+</String>
+<String>
+<Name>Operator Name</Name>
+<Val>Pieter</Val>
+</String>
+<String>
+<Name>Notes</Name>
+<Val></Val>
+</String>
+<Path>
+<Name>TDMS File Path</Name>
+<Val>C:\Users\pdebeule008\Documents\LabVIEW Data\Pieter_qui, 3 de Jul de 2014_DMMP.tdms</Val>
+</Path>
+<Boolean>
+<Name>Data Acquisition State</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>PID Voltage Sweep</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Voltage Step (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Voltage Range (V)</Name>
+<NumElts>2</NumElts>
+<U16>
+<Name></Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name></Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+<DBL>
+<Name>Time Step (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Voltage Step Direction</Name>
+<Choice>High 2 Low</Choice>
+<Choice>Low 2 High</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>MFC Challenge Profile - Heaviside Step</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>Valve Open Duration</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>MFC Flow Rate</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Valve Open Repeats</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Valve Open Start</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+<EW>
+<Name>MFC Challenge Profile</Name>
+<Choice>Heaviside</Choice>
+<Choice>Staircase</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>MFC Challenge Profile - Staircase</Name>
+<NumElts>6</NumElts>
+<U16>
+<Name>Step Time Duration</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Step Flow Rate</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Steps</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Valve Open Start</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>Recovery</Name>
+<Val>0</Val>
+</Boolean>
+<U16>
+<Name>Repeats</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Cluster>
+</LVData>

@@ -1,0 +1,29 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>11.0</Version>
+<Cluster>
+<Name>Device Connections</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Device Name</Name>
+<NumElts>1</NumElts>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Device Settings</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Device Name</Name>
+<NumElts>1</NumElts>
+<DBL>
+<Name>Setpoint</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</LVData>
